@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+body {
+    font-family: 'Roboto', sans-serif;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    /* background-color: teal; */
+    background-image: url('https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhJoDsppA6x2JI7WQnTgfnYaoTFVW4W48Sg-VDTMjM_l5knjx7o0_pURlt0SDAfHU0mk_jZQPCZojgLiNFQYq9ak_2I2WsNwjrQ_c8OBc-w8f4ATsuq0nK3FmY8NfHZrhwPPatB9qM2Ugl4UjFQI4goBPqTTjJECavIYOgNCLDVlWkB4CBvcBeeCoHabQ/s2560/wallpaper-for-setup-gamer-2560x1440.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    scroll-behavior: smooth;
+}
+
+.nav-item .active, .nav-item:hover {
+    background-color: teal;
+    color: white;
+}
+
+header, .home {
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+.navbar-brand {
+    font-size: 2rem;
+    font-weight: bold;
+    color: white;
+}
+
+/* .one {
+    width: 100%;
+    height: 100vh;
+    background-color: blue;
+} */
+
+.paragraph {
+    text-indent: 50px;
+    text-align: justify;
+    opacity: 0.8;
+}
+
+.tabs img {
+    width: 180px;
+    height: 180px;
+    border-radius: 50%;
+    box-shadow: 6px 0px 15px white;
+}
+
+
+.card .img-wrapper {
+    max-width: 100%;
+    height: 13em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0px 2px 10px white;
+}
+
+img {
+    max-height: 100%;
+    max-width: 100%;
+}
+
+@media screen and (min-width: 576px) {
+    .carousel-inner {
+        display: flex;
+    }
+
+    .carousel-item {
+        margin-right: 0;
+        flex: 0 0 33.333333%;
+        display: block;
+    }
+
+    .img-wrapper {
+        height: 23vw;
+    }
+}
+
+.carousel-inner {
+    padding: 1em;
+}
+
+.card {
+    margin: 0 .5em;
+    box-shadow: 2px 6px 8px 0 rgba(22, 22, 26, 0.18);
+    border: none;
+}
+
+.carousel-control-prev, .carousel-control-next {
+    background-color: #000000;
+    width: 6vh;
+    height: 6vh;
+    border-radius: 50%;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+ul li a {
+    text-decoration: none;
+}
+
+ul li a:active {
+    background-color: blue;
+}
+
+#btn-back-to-top {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    display: none;
+}
+
+.under {
+    width: 100px;
+    height: 5px;
+    margin: auto;
+    background-color: cyan;
+}
